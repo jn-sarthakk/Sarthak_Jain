@@ -451,7 +451,7 @@ span{
 }
 .wrapper{
     display: grid;
-    grid-template-columns: repeat(4,1fr);    /* This is the code to change the number of testimonials we want to show in the output */
+    grid-template-columns: repeat(4,1fr);    This is the code to change the number of testimonials we want to show in the output 
     gap: 3rem;
 }
 .testimonial-item{
