@@ -599,7 +599,6 @@ span{
     }
     .heading{
         font-size: 7rem;
-        margin: 2.3rem 0;
     }
 }
 @media(max-width:991px){
@@ -637,7 +636,6 @@ span{
     }
     .heading{
         font-size: 6rem;
-        margin: 2rem 0;
     }
 }
 @media(max-width:895px){
@@ -689,10 +687,14 @@ span{
     }
     .heading{
         font-size: 5rem;
-        margin: 1.4rem 0;
     }
 }
 @media(max-width:700px){
     .heading{
-        font-size: 3rem;
+        font-size: 5rem;
+    }
+    .home-img img{
+        width: 12vw;
+        height: 25vh;
+    }
 }
