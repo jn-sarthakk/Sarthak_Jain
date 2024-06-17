@@ -597,6 +597,9 @@ span{
         grid-template-columns: repeat(2,1fr);
         margin: 0 5rem;
     }
+    .heading{
+        font-size: 6rem;
+    }
 }
 @media(max-width:991px){
     header{
@@ -630,6 +633,9 @@ span{
     }
     .footer{
         padding: 2rem 3%;
+    }
+    .heading{
+        font-size: 4rem;
     }
 }
 @media(max-width:895px){
@@ -678,5 +684,8 @@ span{
     }
     .projects-container{
         grid-template-columns: repeat(1,1fr);
+    }
+    .heading{
+        font-size: 2rem;
     }
 }
