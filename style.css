@@ -48,9 +48,7 @@ body{
     transform: scale(1.1);
     text-shadow: 0 0 25px var(--main-color);
 }
-.logo span{
-    /* text-shadow: 0 0 25px var(--main-color); */
-}
+
 
 .navbar a{
     font-size: 2rem;
@@ -266,6 +264,8 @@ span{
     }
     
 }
+
+
 .heading{
     font-size: 8rem;
     text-align: center;
@@ -451,7 +451,7 @@ span{
 }
 .wrapper{
     display: grid;
-    grid-template-columns: repeat(4,1fr);    This is the code to change the number of testimonials we want to show in the output 
+    grid-template-columns: repeat(4,1fr);   This is the code to change the number of testimonials we want to show in the output 
     gap: 3rem;
 }
 .testimonial-item{
@@ -598,7 +598,7 @@ span{
         margin: 0 5rem;
     }
     .heading{
-        font-size: 7rem;
+        font-size: 6rem;
     }
 }
 @media(max-width:991px){
@@ -635,7 +635,11 @@ span{
         padding: 2rem 3%;
     }
     .heading{
-        font-size: 6rem;
+        font-size: 4rem;
+    }
+    .home-img img{
+        width: 12vw;
+        height: 25vh;
     }
 }
 @media(max-width:895px){
@@ -686,15 +690,76 @@ span{
         grid-template-columns: repeat(1,1fr);
     }
     .heading{
-        font-size: 5rem;
-    }
-}
-@media(max-width:700px){
-    .heading{
-        font-size: 5rem;
+        font-size: 2rem;
     }
     .home-img img{
         width: 12vw;
         height: 25vh;
+    }
+    .home-img img{
+        width: 12vw;
+        height: 25vh;
+    }
+}
+@media(max-width:400px){
+    html{
+        font-size: 40%;
+    }
+    .header{
+        padding: 4rem 4.5rem;
+    }
+    .heading{
+        font-size: 5.7rem;
+    }
+    section{
+        min-height: 95vh;
+        padding-top: -20px;
+    }
+    .logo{
+        font-size: 4rem;
+    }
+    .home-img{
+        display: none;
+    }
+    .home{
+        min-height: 88vh;
+        margin: 10px 40px 40px 40px;
+        padding: 2px 8px 8px 8px;    
+        gap: 8rem;
+    }
+    .home-content h1{
+        position: sticky;
+        margin-top: 9rem;
+        font-size: 6rem;
+        line-height: 2.5;
+    }
+    .home-content h3{
+        font-size: 4rem;
+        margin-bottom: 30px;
+    }
+    .home-content p{
+        font-size: 2rem;
+        margin-bottom: 15px;
+    }
+    .social-icons a{
+        width: 5.5rem;
+        height: 5.5rem;
+        margin: 4rem 2rem 4rem 0;
+    }
+    .btn{
+        padding: 1.5rem 3rem;
+        font-size: 2rem;
+    }
+    .btn-group{
+        margin: 3rem 0rem;
+        padding: 0;
+    }
+    .education{
+        padding: 80px 15px;
+    }
+    .text-animation{
+        font-size: 2rem;
+        font-weight: 500;
+        min-width: 180;
     }
 }
