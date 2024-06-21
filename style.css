@@ -701,7 +701,7 @@ span{
         height: 25vh;
     }
 }
-@media(max-width: 390px){
+@media(max-width:400px){
     html{
         font-size: 40%;
     }
@@ -755,11 +755,40 @@ span{
         padding: 0;
     }
     .education{
-        padding: 80px 15px;
+        padding: 50px 15px 50px 15px;
+    }
+    .education h2{
+        margin-bottom: 1rem 3rem 3rem 3rem;
     }
     .text-animation{
         font-size: 2rem;
         font-weight: 500;
         min-width: 180;
     }
+    .timeline-date{
+        font-size: 2rem;
+    }
+    .timeline-item{
+        margin-bottom: 20px;
+    }
+    .timeline-content{
+        padding: 10px 22px;
+    }
+    .timeline-content h3{
+        font-size: 2.5rem;
+        margin: 0 0 4px;
+    }
+    /* .timeline-content .cgpa p{
+        font-size: 10px;
+    } */
+    .timeline-content p{
+        font-size: 12px;
+        font-weight: 270;
+    }
+    .timeline-content .place{
+        font-size: 9px;
+        font-weight: 150;
+        margin-bottom: 1rem;
+    }
+    
 }
