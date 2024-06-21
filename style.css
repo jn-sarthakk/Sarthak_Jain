@@ -680,9 +680,6 @@ span{
         max-width: 600px;
         margin: 0 auto;
     }
-    .home-img img{
-        width: 56vw;
-    }
     .projects h2{
         margin-bottom: 3rem;
     }
@@ -693,12 +690,7 @@ span{
         font-size: 2rem;
     }
     .home-img img{
-        width: 12vw;
-        height: 25vh;
-    }
-    .home-img img{
-        width: 12vw;
-        height: 25vh;
+        display: none;
     }
 }
 @media(max-width:720px){
