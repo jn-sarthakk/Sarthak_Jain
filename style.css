@@ -357,6 +357,7 @@ span{
     line-height: 22px;
 }
 .timeline-content .place{
+    color: white;
     font-size: 12px;
     font-weight: 200;
     margin-bottom: 3rem;
@@ -774,10 +775,13 @@ span{
         font-size: 10px;
     } */
     .timeline-content p{
+        color: white;
+
         font-size: 12px;
         font-weight: 270;
     }
     .timeline-content .place{
+        color: white;
         font-size: 9px;
         font-weight: 150;
         margin-bottom: 1rem;
