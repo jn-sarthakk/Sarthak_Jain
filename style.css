@@ -701,7 +701,7 @@ span{
         height: 25vh;
     }
 }
-@media(max-width:500px){
+@media(max-width:720px){
     html{
         font-size: 40%;
     }
