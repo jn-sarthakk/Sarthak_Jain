@@ -817,7 +817,7 @@ span{
         padding: 10px 0 0 0;
     }
     .footer .social{
-        padding-bottom: 12px;
+        padding-bottom: 10px;
     }
     .footer .social a{
         font-size: 16px;
@@ -830,7 +830,7 @@ span{
         line-height: 0.8;
     }
     .footer .copyright{
-        margin-top: 16px;
+        margin-top: 12px;
         font-size: 12px;
     }
 }
