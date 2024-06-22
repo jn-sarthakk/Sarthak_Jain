@@ -800,8 +800,7 @@ span{
     .project-info p{
         font-weight: 650;
     }
-    .contact{
-        min-height: 84vh;
+    .contact{
         padding: 40px 15px  5px 15px;
     }
     .contact h2{
@@ -814,8 +813,7 @@ span{
     .contact form .input-box input, .contact form textarea {
         padding: 1.5rem;
     }
-    .footer{
-        min-height: 16vh;
+    .footer{
         padding: 10px 0 0 0;
     }
     .footer .social{
