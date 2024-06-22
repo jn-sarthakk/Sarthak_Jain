@@ -533,7 +533,7 @@ span{
 }
 .footer{
     position: relative;
-    height: 22vh;    /*This can also be commented. Added this to make footer on the contact page*/
+    height: 16vh;    /*This can also be commented. Added this to make footer on the contact page*/
     bottom: 0;
     width: 100%;
     padding: 40px;
@@ -717,7 +717,7 @@ span{
         display: none;
     }
     .home{
-        min-height: 88vh;
+        min-height: 100vh;
         margin: 10px 40px 40px 40px;
         padding: 2px 8px 8px 8px;    
         gap: 8rem;
@@ -789,7 +789,7 @@ span{
         padding: 40px 15px 40px 15px;
     }
     .project-box{
-        height: 36rem;
+        height: 34rem;
     }
     .project-info h4{
         font-size: 2.3rem;
@@ -799,5 +799,38 @@ span{
     }
     .project-info p{
         font-weight: 650;
+    }
+    .contact{
+        padding: 40px 15px  5px 15px;
+    }
+    .contact h2{
+        margin: 2rem 0;
+    }
+    .contact form{
+        gap: 2rem;
+        margin: 3rem 0 0 0;
+    }
+    .contact form .input-box input, .contact form textarea {
+        padding: 1.5rem;
+    }
+    .footer{
+        padding: 10px 0 0 0;
+    }
+    .footer .social{
+        padding-bottom: 12px;
+    }
+    .footer .social a{
+        font-size: 16px;
+        width: 34px;
+        height: 34px;
+        line-height: 34px;
+    }
+    .footer ul{
+        font-size: 13px;
+        line-height: 0.8;
+    }
+    .footer .copyright{
+        margin-top: 16px;
+        font-size: 12px;
     }
 }
