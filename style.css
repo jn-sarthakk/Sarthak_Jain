@@ -801,6 +801,7 @@ span{
         font-weight: 650;
     }
     .contact{
+        min-height: 84vh;
         padding: 40px 15px  5px 15px;
     }
     .contact h2{
@@ -814,6 +815,7 @@ span{
         padding: 1.5rem;
     }
     .footer{
+        min-height: 16vh;
         padding: 10px 0 0 0;
     }
     .footer .social{
