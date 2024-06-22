@@ -407,7 +407,7 @@ span{
     display: flex;
     flex-direction: column;
     text-align: left;
-    max-height: 200px;
+    max-height: 30rem;
     justify-content: left;
     align-items: baseline;
     padding: 1.3rem 5rem 2rem 5rem;
@@ -703,6 +703,7 @@ span{
     }
     .heading{
         font-size: 5.7rem;
+        margin-bottom: 1rem 3rem 3rem 3rem;
     }
     section{
         min-height: 95vh;
@@ -748,10 +749,7 @@ span{
         padding: 0;
     }
     .education{
-        padding: 50px 15px 50px 15px;
-    }
-    .education h2{
-        margin-bottom: 1rem 3rem 3rem 3rem;
+        padding: 40px 15px 40px 15px;
     }
     .text-animation{
         font-size: 2rem;
@@ -786,5 +784,13 @@ span{
         font-weight: 150;
         margin-bottom: 1rem;
     }
-    
+    .projects{
+        padding: 40px 15px 40px 15px;
+    }
+    .project-box{
+        height: 40rem;
+    }
+    .project-info h4{
+        font-size: 2.3rem;
+    }
 }
