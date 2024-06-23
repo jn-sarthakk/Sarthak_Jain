@@ -533,7 +533,7 @@ span{
 }
 .footer{
     position: relative;
-    height: 16vh;    /*This can also be commented. Added this to make footer on the contact page*/
+    height: 22vh;    /*This can also be commented. Added this to make footer on the contact page*/
     bottom: 0;
     width: 100%;
     padding: 40px;
@@ -724,7 +724,7 @@ span{
     }
     .home-content h1{
         position: sticky;
-        margin-top: 9rem;
+        margin-top: 6.5rem;
         font-size: 6rem;
         line-height: 2.5;
     }
@@ -800,24 +800,26 @@ span{
     .project-info p{
         font-weight: 650;
     }
-    .contact{
-        padding: 40px 15px  5px 15px;
+    .contact{
+        padding: 40px 15px 5px 15px;
+        min-height: 80vh;
     }
     .contact h2{
-        margin: 2rem 0;
+        margin-bottom: 2rem;
     }
     .contact form{
         gap: 2rem;
-        margin: 3rem 0 0 0;
+        margin: 3rem auto;
     }
     .contact form .input-box input, .contact form textarea {
-        padding: 1.5rem;
+        padding: 1.8rem;
     }
-    .footer{
-        padding: 10px 0 0 0;
+    .footer{
+        height: 14vh;
+        /* padding: 20px; */
     }
     .footer .social{
-        padding-bottom: 12px;
+        padding-bottom: ;
     }
     .footer .social a{
         font-size: 16px;
@@ -827,10 +829,10 @@ span{
     }
     .footer ul{
         font-size: 13px;
-        line-height: 0.8;
+        line-height: ;
     }
     .footer .copyright{
-        margin-top: 16px;
+        margin-top: 24px;
         font-size: 12px;
     }
 }
