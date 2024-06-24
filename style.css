@@ -823,7 +823,7 @@ span{
         padding: 1.8rem;
     }
     .footer{
-        height: auto;
+        height: 16vh;
         /* padding: 20px; */
     }
     .footer .social{
