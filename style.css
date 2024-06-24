@@ -816,7 +816,7 @@ span{
     }
     .footer{
         height: 10vh;
-        padding: 20px;
+        /* padding: 20px; */
     }
     .footer .social{
         padding-bottom: 15px;
