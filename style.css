@@ -731,7 +731,7 @@ span{
     }
     .home-content h1{
         position: sticky;
-        margin-top: 6.5rem;
+        margin-top: 2.8rem;
         font-size: 6rem;
         line-height: 2.5;
     }
@@ -844,7 +844,7 @@ span{
     }
     .text-logo img{
         display: block;
-        width: 6vw;
+        width: 9vw;
         height: 6vh;
         border-radius: 50%;
         padding: 0 0;
