@@ -1,7 +1,11 @@
-let menuIcon = document.querySelector('#menu-icon');
-let navbar = document.querySelector('.navbar');
-let sections = document.querySelector('section');
-let navLinks = document.querySelector('header nav a');
+const menuIcon = document.getElementById('menu-icon');
+const navbar = document.querySelector('.navbar');
+let sections = document.querySelectorAll('section');
+let navLinks = document.querySelectorAll('header nav a');
+
+menuIcon.addEventListener('click', () =>{
+    navbar.classList.toggle('active');
+});
 
 window.onscroll = () => {
     sections.forEach(sec => {
