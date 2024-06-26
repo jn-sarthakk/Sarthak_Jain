@@ -797,7 +797,7 @@ span{
         padding: 40px 15px 40px 15px;
     }
     .project-box{
-        height: 30rem;
+        height: 29rem;
     }
     .project-info h4{
         font-size: 2.3rem;
@@ -859,7 +859,7 @@ span{
       margin: 0; 
     }
    .navbar.active {
-      width: 30%; 
+      width: 25%; 
       padding: 0 10px 5px 10px; 
       margin-top: 0;
       margin-bottom: 0;
