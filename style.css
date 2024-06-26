@@ -797,7 +797,7 @@ span{
         padding: 40px 15px 40px 15px;
     }
     .project-box{
-        height: 29rem;
+        height: 34rem;
     }
     .project-info h4{
         font-size: 2.3rem;
@@ -823,7 +823,6 @@ span{
         padding: 1.8rem;
     }
     .footer{
-        padding: 2rem 50%;
         height: 16vh;
         /* padding: 20px; */
     }
@@ -860,7 +859,7 @@ span{
       margin: 0; 
     }
    .navbar.active {
-      width: 25%; 
+      width: 20%; 
       padding: 0 10px 5px 10px; 
       margin-top: 0;
       margin-bottom: 0;
